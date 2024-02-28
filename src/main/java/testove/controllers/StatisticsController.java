@@ -11,7 +11,7 @@ import testove.repository.ReportRepository;
 public class StatisticsController {
 
     @Autowired
-    private ReportRepository reportRepository;
+    private ReportRepository reportRepository;//
 
 
 
