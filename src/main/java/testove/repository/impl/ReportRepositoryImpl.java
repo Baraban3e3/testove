@@ -4,12 +4,14 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 
+import org.springframework.stereotype.Component;
 import testove.models.Report;
 import testove.repository.ReportRepository;
 
 import java.util.Date;
 import java.util.List;
 
+@Component
 public abstract class ReportRepositoryImpl implements ReportRepository {
 
     private final MongoTemplate mongoTemplate;

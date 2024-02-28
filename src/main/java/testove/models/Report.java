@@ -42,4 +42,5 @@ public class Report {
     private Double receivedNegativeFeedbackRate;
     private String parentAsin;
 
+
 }
